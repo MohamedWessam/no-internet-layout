@@ -1,0 +1,2 @@
+include ':app', ':nointernetlayout'
+rootProject.name='No Internet Layout Project'

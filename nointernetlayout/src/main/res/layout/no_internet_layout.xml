@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:src="@drawable/no_internet_pic2"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/no_internet_image"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:src="@drawable/no_internet_pic1"/>
+
+    </FrameLayout>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/main_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/capriola"
+        android:gravity="center"
+        android:text="@string/no_internet"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorText" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/secondary_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/allerta_stencil"
+        android:gravity="center"
+        android:text="@string/check_network"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/darkGray" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/retry_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/retry_button"
+        android:paddingStart="22dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="22dp"
+        android:paddingBottom="4dp"
+        android:text="@string/retry"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/blue"
+        android:textStyle="bold" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
