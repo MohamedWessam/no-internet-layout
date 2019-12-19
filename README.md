@@ -1,6 +1,7 @@
 # No Internet Layout Library
 Library to check internet connection and change layout to no internet layout if there is no internet.
 
+![](https://i.postimg.cc/cJv329Hq/Hnet-image.gif)
 
 **Gradle:**
 ```
