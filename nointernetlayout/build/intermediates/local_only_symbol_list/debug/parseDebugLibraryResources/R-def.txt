@@ -1,0 +1,26 @@
+R_DEF: Internal format may change without notice
+local
+color blue
+color colorText
+color darkGray
+color white
+drawable animated1
+drawable animated2
+drawable clasic
+drawable cloud
+drawable dinosaur
+drawable retry_button
+drawable shell
+drawable simple
+font allerta_stencil
+font capriola
+id main_title
+id no_internet_image
+id no_internet_image2
+id retry_button
+id secondary_text
+layout no_internet_layout
+string app_name
+string check_network
+string no_internet
+string retry

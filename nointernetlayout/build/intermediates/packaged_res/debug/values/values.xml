@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#2E61B4</color>
+    <color name="colorText">#212121</color>
+    <color name="darkGray">#757575</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">Library</string>
+    <string name="check_network">Please check your internet connection and try again</string>
+    <string name="no_internet">No internet connection!</string>
+    <string name="retry">RETRY</string>
+</resources>

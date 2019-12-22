@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/No Internet Layout Project.iml" filepath="$PROJECT_DIR$/No Internet Layout Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nointernetlayout/nointernetlayout.iml" filepath="$PROJECT_DIR$/nointernetlayout/nointernetlayout.iml" />
+    </modules>
+  </component>
+</project>
