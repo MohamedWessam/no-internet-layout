@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/No Internet Layout Project.iml" filepath="$PROJECT_DIR$/No Internet Layout Project.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/nointernetlayout/nointernetlayout.iml" filepath="$PROJECT_DIR$/nointernetlayout/nointernetlayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/No Internet Layout Project.iml" filepath="$PROJECT_DIR$/No Internet Layout Project.iml" group="No Internet Layout Project" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="No Internet Layout Project/app" />
+      <module fileurl="file://$PROJECT_DIR$/nointernetlayout/nointernetlayout.iml" filepath="$PROJECT_DIR$/nointernetlayout/nointernetlayout.iml" group="No Internet Layout Project/nointernetlayout" />
     </modules>
   </component>
 </project>
