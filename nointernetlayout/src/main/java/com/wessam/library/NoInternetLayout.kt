@@ -1,18 +1,10 @@
 package com.wessam.library
 
 import android.app.Activity
-import android.graphics.Color
-import android.graphics.PorterDuff
-import android.graphics.drawable.GradientDrawable
-import android.util.TypedValue
 import android.view.View
 import android.view.animation.AlphaAnimation
 import android.view.animation.Animation
-import androidx.appcompat.content.res.AppCompatResources
-import androidx.core.content.ContextCompat
-import androidx.core.graphics.drawable.DrawableCompat
 import kotlinx.android.synthetic.main.no_internet_layout.*
-import java.security.AccessController.getContext
 
 class NoInternetLayout(private val activity: Activity, private val layoutResID: Int) {
 
@@ -33,11 +25,10 @@ class NoInternetLayout(private val activity: Activity, private val layoutResID: 
         private var noInternetLayout: NoInternetLayout = NoInternetLayout(activity, layoutResID)
 
         init {
-            if (NetworkChecker.isNetworkConnected(activity.applicationContext)) {
-                activity.setContentView(layoutResID)
-            } else {
-                activity.setContentView(R.layout.no_internet_layout)
 
+            //Only set layout if there is no internet to avoid duplicate id
+            if (!NetworkChecker.isNetworkConnected(activity.applicationContext)) {
+                activity.setContentView(R.layout.no_internet_layout)
                 noInternetLayout.onRetryButtonClick()
             }
         }
